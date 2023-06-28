@@ -3,10 +3,10 @@ import "./Cyber.css"
 export default function Cyber() {
   return (
     <div>
-          <div class="container">
-        <div class="outerContainer">
-            <div class="innerContainer">
-                <div class="text">
+          <div className="container">
+        <div className="outerContainer">
+            <div className="innerContainer">
+                <div className="text">
                     hello adarsh how are you !!!
                 </div>
             </div>

@@ -15,7 +15,7 @@ function Slider() {
       <div className={slider.imgContainer}>
 
       {Array.map((item)=>{
-        return <img src={item} className={slider.zoom} alt="sorry" />
+        return <img src={item} key={item} className={slider.zoom} alt="sorry" />
       
       })}
       </div>
